@@ -1,0 +1,176 @@
+/* BODY  QISMINING  BOSHI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+
+body.on {
+    background: radial-gradient(#555, #111);
+}
+
+
+.bulb {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background: #444;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+body.on .bulb {
+    background-color: #fff;
+    box-shadow: 0 0 50px #fff,
+    0 0 100px #fff,
+    0 0 150px #fff,
+    0 0 200px #fff,
+    0 0 250px #fff,
+    0 0 300px #fff,
+    0 0 350px #fff;
+}
+
+
+.bulb::before {
+    content: '';
+    position: absolute;
+    top: -139px;
+    left: 54px;
+    width: 115px;
+    height: 100px;
+    background: #444;
+    border-top: 80px solid #000;
+    border-radius: 45px;
+}
+
+
+
+body.on .bulb::before {
+    background-color: #fff;
+}
+
+body.on .bulb::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background: #ffffff;
+    border-radius: 50%;
+    filter: blur(55px);
+}
+
+
+.bulb span:nth-child(1) {
+    position: absolute;
+    display: block;
+    top: -16px;
+    left: 22px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    transform: rotate(330deg);
+    border-bottom-right-radius: 40px;
+    box-shadow: 20px 20px 0 10px #444;
+}
+
+
+body.on .bulb span:nth-child(1) {
+    box-shadow: 20px 20px 0 10px #fff;
+}
+
+
+.bulb span:nth-child(2) {
+    position: absolute;
+    top: -16px;
+    right: 26px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    transform: rotate(18deg);
+    border-bottom-left-radius: 40px;
+    box-shadow: -20px 20px 0 10px #444;
+}
+
+
+body.on .bulb span:nth-child(2) {
+    box-shadow: 20px 20px 0 10px #fff;
+}
+
+
+.wire {
+    position: absolute;
+    left: 49.17%;
+    bottom: 50%;
+    width: 15px;
+    height: 60vh;
+    background: #000;
+    z-index: 1;
+}
+/* BODY  QISMINING  YAKUNI */
+
+
+
+.switch {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(#eee, #ccc, #eee);
+    border: 3px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.switch .btn {
+    position: relative;
+    width: 25px;
+    height: 40px;
+    background: linear-gradient(#777 40%, #fff 20%, #777 40%);
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+
+
+.switch .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(#fff, #fff);
+    border-radius: 4px;
+}
+
+
+
+.on .switch .btn::before {
+    top: 35%;
+}
+
+
+
+#audio {
+    display: none;
+}

@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #acbaca;
+}
+
+
+
+.digital_hours_1 {
+    border: 10px solid rgb(221, 255, 0);
+    height: 270px;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 2.5%;
+    border-radius: 20%;
+    z-index: 10;
+    background-color: rgb(255, 0, 149);
+}
+
+
+.digital_hours_1 .screen1 {
+    border: 10px solid rgb(221, 255, 0);   /* rgb(239, 225, 225) */
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 20%;
+    z-index: 100;
+    background: rgb(221, 255, 0);
+}
+
+
+.digital_minutes_2 {
+    border: 10px solid red;
+    height: 270px;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 27.5%;
+    border-radius: 20%;
+    background-color: rgb(0, 255, 153);
+}
+
+
+.digital_minutes_2 .screen2 {
+    border: 10px solid red;   /* rgb(239, 225, 225) */
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 20%;
+    z-index: 100;
+    background: red;
+}
+
+
+.digital_seconds_3 {
+    border: 10px solid dodgerblue;
+    height: 270px;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 52.5%;
+    border-radius: 20%;
+    background-color: rgb(255, 196, 0);
+}
+
+
+.digital_seconds_3 .screen3 {
+    border: 10px solid dodgerblue;   /* rgb(239, 225, 225) */
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 20%;
+    z-index: 100;
+    background: dodgerblue;
+}
+
+
+.digital_pm_4 {
+    border: 10px solid #04fc43;
+    height: 270px;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 77.5%;
+    border-radius: 20%;
+    background: #ffffff;
+}
+
+
+.digital_pm_4 .screen4 {
+    border: 10px solid #04fc43;   /* rgb(239, 225, 225) */
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 20%;
+    z-index: 100;
+    background: #04fc43;
+}
+
+
+#seconds, #minutes, #hours {
+    text-align: center;
+    color: #fff;
+    font-size: 120px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: -13px;
+}
+
+
+#ampm {
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 5px;
+}

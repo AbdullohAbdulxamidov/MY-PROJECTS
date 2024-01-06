@@ -1,0 +1,921 @@
+/* BODY SECTION BOSHI */
+body {
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.main_header_brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main_header_brand img {
+    width: 64px;
+}
+
+
+.main_navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main_navigation_item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main_navigation_item a {
+    color: #05364d;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.main_navigation_item a:hover {
+    color: #efb6df;
+}
+
+
+.main_navigation_items .active a {
+    color: #efb6df;
+}
+/* BODY SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+/* MAIN SECTION BOSHI */
+/* .main_banner {
+    background: url(../LOYIHA_CSS/rasm14.jpg) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+} */
+
+
+.main_section {
+    padding: 100px 30px;
+}
+
+
+.main_section > div {
+    width: 50%;
+    float: left;
+}
+
+
+.main_section_image {
+    text-align: right;
+    border-radius: 40%;
+    background-color: azure;
+}
+
+
+.main_section_welcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+
+.main_section_introduction {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364E;
+}
+
+
+.main_section_position {
+    color: #05364E;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+.main_section_social-networks a {
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+.main_section_social-networks a:hover .tel {
+    color: rgb(16, 104, 192);
+}
+
+.main_section_social-networks a:hover .you {
+    color: red;
+}
+
+.main_section_social-networks a:hover .ins {
+    color: crimson;
+}
+
+.main_section_social-networks a:hover .fac {
+    color: deepskyblue;
+}
+
+
+.main_section_action {
+    margin-top: 30px;
+    border: none;
+    background: #1c44e4;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+/* MAIN SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+/* STATISTICS SECTION BOSHI */
+.statistics {
+    padding-top: 100px;
+}
+
+
+.statistics_item {
+    display: inline-block;
+    background-color: #f8faff;
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+
+.statistics_number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1C44E4;
+}
+
+
+.statistics_title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+/* STATISTICS SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+/* ABOUT ME SECTION BOSHI */
+.about_me {
+    padding-top: 6.25rem;
+}
+
+.about_me > div {
+    width: 50%;
+    float: left;
+}
+
+.about_me_image img {
+    width: 90%;
+}
+
+.section_subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 0.625rem;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.button {
+    border: none;
+    background-color: #1C44E4;
+    background-size: 200% auto;
+    color: #FFFFFF;
+    transition: 0.5s;
+    font-size: 0.875rem;
+    padding: 1.25rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-position: right center;
+}
+
+.blur_line {
+    display: inline-block;
+    margin-left: 0.32rem;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+.section_title {
+    font-size: 2.625rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+    margin-top: 0.32rem;
+}
+
+.about_me_description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.69rem;
+}
+
+.main_banner {
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+
+.services {
+    padding-top: 6.25rem;
+}
+
+.service_card {
+    display: inline-block;
+    height: 450px;
+    width: 30%;
+    background-color: #d9e0f8;
+    padding: 3.75rem 1.875rem;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.service_card_title {
+    color: #05364d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.service_card_description {
+    font-size: 18px;
+    line-height: 1.69rem;
+    font-weight: 300;
+    color: #797979;
+}
+
+.service_card_link {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+
+.service_card_link:hover {
+    text-decoration: underline;
+}
+
+.service_card:hover {
+    background-color: #5f30ff;
+}
+
+.service_card:hover .service_card_title,
+.service_card:hover .service_card_description,
+.service_card:hover .service_card_link {
+    color: #fff;
+}
+
+.clients {
+    padding-top: 6.25rem;
+}
+
+.client_item > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.client_item_image img {
+    width: 90%;
+}
+
+.client_item_info {
+    padding-top: 0rem;
+    padding-left: 3.125rem;
+}
+
+.client_item_name {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.client_item_position {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.client_item_review {
+    font-size: 0.875rem;
+    line-height: 1.69rem;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.clients_item_rate {
+    color: gold;
+}
+
+.clients_item_rate .disabled {
+    color: #AEB9BE;
+}
+/* ABOUT ME SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: sans-serif;
+} */
+
+
+/* .container {
+    width: 1140px;
+    margin: 0 auto;
+} */
+
+
+/* .to_uppercase {
+    text-transform: uppercase;
+} */
+
+
+/* .clearfix {
+    clear: both;
+} */
+
+
+/* .main_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgb(0px 8px 26px 0px 0 0 0 / 30%);
+    z-index: 7;
+} */
+
+
+/* .main_header_brand {
+    display: inline-block;
+    vertical-align: middle;
+ } */
+
+
+ /* .main_header_brand .brand {
+    border: 2px solid dodgerblue;
+    width: 75px;
+    height: 18px;
+    border-radius: 35%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3px;
+    background-color: cyan;
+ } */
+
+
+/* .main_header_brand a {
+    color: dodgerblue;
+    font-size: 12px;
+    text-decoration: none;
+} */
+
+
+/* .main_navigation {
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+
+/* .header_nav_ul_li {
+    display: inline-block;
+    padding: 10px;
+} */
+
+
+/* .header_nav_ul_li a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+} */
+
+
+/* .header_nav_ul_li a:hover {
+    color: #efb6df;
+} */
+
+
+/* .header_nav_ul_li .active a {
+    color: #efb6df;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main_banner {
+    background: url(../LOYIHA_CSS/rasm14.jpg) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+
+
+
+.main_section {
+    padding: 100px 30px;
+}
+
+
+.main_section > div {
+    width: 50%;
+    float: left;
+}
+
+
+.main_section_image {
+    text-align: right;
+    border-radius: 40%;
+    background-color: azure;
+}
+
+
+.main_section_welcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+
+.main_section_introduction {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364E;
+}
+
+
+.main_section_position {
+    color: #05364E;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+.main_section_social-networks a {
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+.main_section_social-networks a:hover .tel {
+    color: rgb(16, 104, 192);
+}
+
+.main_section_social-networks a:hover .you {
+    color: red;
+}
+
+.main_section_social-networks a:hover .ins {
+    color: crimson;
+}
+
+.main_section_social-networks a:hover .fac {
+    color: deepskyblue;
+}
+
+
+.main_section_action {
+    margin-top: 30px;
+} */
+
+
+
+
+
+
+/* .statistics {
+    padding-top: 100px;
+}
+
+
+.statistics_item {
+    display: inline-block;
+    background-color: #dee2ec;
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+
+.statistics_number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1C44E4;
+}
+
+
+.statistics_title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* .about-me {
+    padding: 100px 0;
+}
+
+
+.about-me > div {
+    width: 50%;
+    float: left;
+}
+
+
+.about-me_image img {
+    width: 90%;
+}
+
+
+.section-subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+
+.section-title {
+    font-weight: 700;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: #05364d;
+}
+
+
+.button {
+    border: none;
+    background-color: #1C44E4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+}
+
+
+.about-me_description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+}
+
+
+.about-me_action {
+    margin-top: 40px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .services {
+    padding-top: 100px;
+}
+
+
+.service_card {
+    display: inline-block;
+    width: 30%;
+    background-color: #F8FAFF;
+    padding: 60px 30px;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.service_card_title {
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.service_card_description {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+}
+
+
+.service_card_link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+
+
+.service_card:hover {
+    background-color: #5f30ff;
+}
+
+
+.service_card:hover .service_card_title,
+.service_card:hover .service_card_description,
+.service_card:hover .service_card_link {
+    color: #fff;
+} */
+
+
+
+
+
+
+
+
+/* .clients {
+    padding-top: 100px;
+}
+
+
+.client_item > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.client_item_image img {
+    width: 90%;
+}
+
+
+.client_item_info {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+.client_item_name {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+
+.client_item_position {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+
+.client_item_review {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+
+.clients_item_rate {
+    color: #FFD885;
+}
+
+
+.clients_item_rate .disabled {
+    color: #AEB9BE;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .portfolio {
+    padding-top: 100px;
+}
+
+.portfolio_items {
+    margin-top: 50px;
+    position: relative;
+}
+
+.portfolio_item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio_item_2 {
+    position: absolute;
+    right: 0;
+    top: 322px;
+}
+
+
+.portfolio_item_3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.portfolio_item > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.portfolio_item_image {
+    width: 100%;
+}
+
+
+.portfolio_item_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19, 169, 230, 0.9);
+    visibility: hidden;
+}
+
+
+
+.portfolio_item_info {
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: azure;
+    visibility: hidden;
+}
+
+
+
+.portfolio_item_info a {
+    color: azure;
+    text-decoration: none;
+}
+
+
+.portfolio_item_info:hover .portfolios_item_overlay {
+    visibility: visible;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.portfolio_item_info:hover .portfolios_item_info {
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
+} */

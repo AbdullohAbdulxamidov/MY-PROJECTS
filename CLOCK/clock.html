@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOCK</title>
+    <link rel="stylesheet" href="./clock.css">
+</head>
+
+<body>
+    <div class="clock">
+        <div class="numbers">
+
+            <div style="--clr: #04fc43;" class="circles seconds_hand" id="seconds_hand"><i></i></div>
+            <div style="--clr: #fee800;" class="circles minutes_hand" id="minutes_hand"><i></i></div>
+            <div style="--clr: #ff2972;" class="circles hours_hand" id="hours_hand"><i></i></div>
+            <div class="center_dot"></div>
+
+            <span style="--i:1"><b>1</b></span>
+            <span style="--i:2"><b>2</b></span>
+            <span style="--i:3"><b>3</b></span>
+            <span style="--i:4"><b>4</b></span>
+            <span style="--i:5"><b>5</b></span>
+            <span style="--i:6"><b>6</b></span>
+            <span style="--i:7"><b>7</b></span>
+            <span style="--i:8"><b>8</b></span>
+            <span style="--i:9"><b>9</b></span>
+            <span style="--i:10"><b>10</b></span>
+            <span style="--i:11"><b>11</b></span>
+            <span style="--i:12"><b>12</b></span>
+
+        </div>
+
+        <div id="time">
+            <div id="hour" style="--clr: #ff2972;">00</div>
+            <div id="minutes" style="--clr: #fee800;">00</div>
+            <div id="seconds" style="--clr: #04fc43;">00</div>
+            <div id="ampm" style="--clr: #fff;">AM</div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+
+        const hr = document.querySelector('#hours_hand');
+        const mn = document.querySelector('#minutes_hand');
+        const sc = document.querySelector('#seconds_hand');
+
+
+        setInterval(() => {
+            let day = new Date();
+            let hh = day.getHours() * 30;
+            let mm = day.getMinutes() * 6;
+            let ss = day.getSeconds() * 6;
+
+            hr.style.transform = `rotateZ(${hh + (mm / 12)}deg)`;
+            mn.style.transform = `rotateZ(${mm}deg)`;
+            sc.style.transform = `rotateZ(${ss}deg)`;
+
+
+            let hour = document.getElementById('hour');
+            let minute = document.getElementById('minutes');
+            let seconds = document.getElementById('seconds');
+            let ampm = document.getElementById('ampm');
+
+            let h = new Date().getHours();
+            let m = new Date().getMinutes();
+            let s = new Date().getSeconds();
+
+
+            var am = h >= 12 ? 'PM' : 'AM';
+
+
+            if (h > 12) {
+                h = h - 12;
+            }
+
+
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+
+
+
+            hour.innerHTML = h;
+            minute.innerHTML = m;
+            seconds.innerHTML = s;
+            ampm.innerHTML = am;
+        })
+
+
+    </script>
+
+</body>
+
+</html>
